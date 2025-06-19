@@ -14,7 +14,7 @@ function App() {
     <div className='app'>
         <HeaderComp/>
         <Sidebar/>
-        <Card usrname="Bob" card-title="video game project" Card-text="mama is cool!" />
+        <Card usrname="Bob" spcltitle="video game project" message="mama is cool!" />
         
     </div>
   );

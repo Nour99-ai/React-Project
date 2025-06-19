@@ -1,7 +1,9 @@
+import React from 'react';
+
 const HeaderComp = () => {
   return(
-    <div>
-      <header className="header"> 
+    <div className="header">
+      <header className="headerHead"> 
         <h1 className="headerh1">
           Nour Web
         </h1>

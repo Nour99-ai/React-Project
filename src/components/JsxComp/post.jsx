@@ -1,12 +1,13 @@
-const Card = (usrname , spcltitle , message) => {
-  <link></link>;
+import React from 'react';
+
+const Card = ({ usrname, spcltitle, message }) => {
   return (
     <div className="post">
       <div className="card">
-        <div className="card-header">{usrname}</div>
-        <div className="card-body">
-          <h5 className="card-title">{spcltitle}</h5>
-          <p className="card-text">
+        <div className="cardHeader">{usrname}</div>
+        <div className="cardBody">
+          <h5 className="cardTitle">{spcltitle}</h5>
+          <p className="cardText">
             <p>{message}</p>
           </p>
         </div>
