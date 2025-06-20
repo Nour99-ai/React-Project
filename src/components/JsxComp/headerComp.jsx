@@ -1,15 +1,10 @@
-import React from 'react';
+import React from "react";
 
-const HeaderComp = () => {
-  return(
-    <div className="header">
-      <header className="headerHead"> 
-        <h1 className="headerh1">
-          Nour Web
-        </h1>
-      </header>
+export default function
+HeaderComp(){
+  return (
+    <div className="HeaderComp">
+      <h1 className="Headerh1">Nour Web</h1>
     </div>
-  )
+  );
 }
-
-export default HeaderComp;

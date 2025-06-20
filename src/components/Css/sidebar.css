@@ -1,45 +1,12 @@
 .sidebar {
-    width: 280px;
-    height: 100vh;
-    background: linear-gradient(180deg, #f8f9fa 0%, #e9ecef 100%);
-    padding: 30px 20px;
+    background: #fff;
+    border: 6px solid #166f51;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+    width: 350px;         /* fixed width */
+    height: 500px;        /* fixed height */
+    margin: 40px 40px 0 auto; /* top, right, bottom, left */
+    padding: 24px;
+    padding-left: 0%;
     box-sizing: border-box;
-    position: fixed;
-    top: 80px;
-    left: 0;
-    z-index: 900;
-    box-shadow: 4px 0 20px rgba(0, 0, 0, 0.1);
-    border-right: 1px solid #dee2e6;
-    overflow-y: auto;
-    transition: all 0.3s ease;
-}
-
-.sidebar:hover {
-    box-shadow: 6px 0 25px rgba(0, 0, 0, 0.15);
-    transform: translateX(5px);
-}
-
-/* Add some content to make the sidebar more interesting */
-.sidebar::before {
-    content: "Navigation";
-    display: block;
-    font-size: 1.2rem;
-    font-weight: 600;
-    color: #495057;
-    margin-bottom: 20px;
-    padding-bottom: 10px;
-    border-bottom: 2px solid #667eea;
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-/* Add some navigation items */
-.sidebar::after {
-    content: "🏠 Home\A📝 Posts\A👤 Profile\A⚙️ Settings\A📧 Messages";
-    white-space: pre-line;
-    display: block;
-    font-size: 1rem;
-    color: #6c757d;
-    line-height: 2;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
