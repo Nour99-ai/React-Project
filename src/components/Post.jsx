@@ -1,6 +1,6 @@
 const Post = ({ user, postTitle, postContent }) => {
-  const post = document.getElementById("post");
-  const postP = document.getElementById("postP");
+  const Post = document.getElementById("post");
+  const PostP = document.getElementById("postP");
 
   return (
     <div
