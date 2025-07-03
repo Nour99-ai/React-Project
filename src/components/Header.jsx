@@ -1,12 +1,13 @@
+import React, { useState } from "react";
+
 const Header = () => {
-  return (
-    <>
-      <header className="width-full h-24 bg-gradient-to-r from-cyan-950 to-cyan-300 text-center flex items-center justify-center">
-        <h1 className="text-white w-full font-bold text-xl">
-          Welcome to Nour Web
-        </h1>
-      </header>
-    </>
+    return (
+    <div className="text-center content-center bg-gradient-to-r from-red-500 via-pink-500 to-blue-300 py-24 px-10 font-bold text-3xl"> 
+      <h1>
+        Welcome to Nour Web
+      </h1>
+    </div>
   );
 };
+
 export default Header;
