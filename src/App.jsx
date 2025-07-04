@@ -1,15 +1,13 @@
 import React from "react";
 import Header from "./components/Header";
-import LogIn from "./components/LogIn";
+import LogInForm from "./components/LogIn";
 
 const App = () => {
   return (
     <>
-      <div
-        className="bg-[rgb(60, 64, 67)]"
-      >
+      <div className="min-h-screen bg-[rgb(60,64,67)]">
         <Header />
-        <LogIn />
+        <LogInForm />
       </div>
     </>
   );
