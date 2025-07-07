@@ -12,11 +12,20 @@ const LogInInputs = [
   { id: 9, key: "PhoneNumber", type: "tel", label: "Phone Number" },
   { id: 10, key: "Language", type: "text", label: "Language" },
 ];
-const LogInInputsLoop = LogInInputs.map(<LogInForm />) //Add the fitting properties and continue here => watch the .map() video again !
+const LogInList = LogInInputs.map((Input) => {
+  return (
+    <LogInForm
+      key={Input.id}
+      type={Input.type}
+      label={Input.label} //TODO:Fix the label not showing issue
+    />
+  );
+}) //Add the fitting properties and continue here => watch the .map() video again !
 const App = () => {
   return (
     <>
       <Header />
+      {LogInList}
     </>
   );
 };
